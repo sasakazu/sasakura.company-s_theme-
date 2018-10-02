@@ -14,22 +14,22 @@
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">タイトルタイトルタイトルタイトルタイトル</a></h2>
+        <h2><a href="">Wordpressオリジナルテーマを一緒に作ってみよう</a></h2>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">タイトルタイトルタイトルタトルタイトルタトルタイトルタトルタイトルタトルタイトルタトルタイトルタイトルタイトル</a></h2>
+        <h2><a href="">トレーニングアプリを一緒に作ってみよう</a></h2>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">タイトルタイトルタイトルタイトルタイトル</a></h2>
+        <h2><a href="">コンテンツSEOを極める</a></h2>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">タイトルタイトルタイトルタイトルタイトル</a></h2>
+        <h2><a href="">作成アプリ</a></h2>
       </li>
 
     </ul>
