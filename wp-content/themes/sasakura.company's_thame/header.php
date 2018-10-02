@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sidebar.css" type="text/css" />
+
+
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 
   <title><?php bloginfo( $name ); ?></title>
@@ -17,7 +20,7 @@
 <body <?php body_class(); ?>>
 
   <div class="nav-menu">
-    <a href="#home" id="logo">Sasakura.company</a>
+    <a href="#home" id="logo"><?php bloginfo( $name ); ?></a>
 
     <ul>
       <li><a href="#">menu1</a></li>
