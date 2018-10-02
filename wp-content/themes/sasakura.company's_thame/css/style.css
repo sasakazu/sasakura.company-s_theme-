@@ -1,0 +1,101 @@
+/*
+Theme Name: sasa's theme
+Theme URL: テーマのサイトのURI
+Description: テーマの説明
+Author: 作者の名前
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+
+/* common */
+
+body {
+  background: #F7F7F7;
+}
+
+.container {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* nav menu */
+
+
+#logo {
+  text-decoration: none;
+  overflow: hidden;
+  color: #313131;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.nav-menu {
+  background: #fff;
+  padding: 28px;
+
+}
+
+.nav-menu ul {
+  float: right;
+  overflow: hidden;
+}
+
+.nav-menu li {
+  list-style: none;
+  float: left;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+
+}
+
+
+/* よく読まれている記事 */
+
+.more-wrapper {
+  width: 100%;
+
+}
+
+.more-contents {
+  width: 30%;
+  float: left;
+  background: #FFF;
+  margin: 15px;
+  margin-top: 50px;
+}
+
+.more-contents img {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.more-contents a {
+  color: rgb(123, 123, 123);
+  text-decoration: none;
+  padding-right: 26px;
+  padding-left: 15px;
+  font-size: 19px;
+  margin-top: 18px;
+  display: block;
+  text-align: center;
+
+}
+
+
+/* footer */
+
+
+footer {
+  background: #222222;
+  color: #FFF;
+  text-align: center;
+  clear: both;
+
+}
