@@ -6,30 +6,33 @@
 
 <div class="more-wrapper">
 
-  <h2>よく読まれいる記事</h2>
-
   <div class="container">
 
     <ul class="more-colum">
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">Wordpressオリジナルテーマを一緒に作ってみよう</a></h2>
+        <h2><a href="" id="more-title">Wordpressオリジナルテーマの作り方</a></h2>
+        <a href="" class="more-btn">Read More</a>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">トレーニングアプリを一緒に作ってみよう</a></h2>
+        <h2><a href="" id="more-title">iOSアプリの作り方</a></h2>
+        <a href="" class="more-btn">Read More</a>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">コンテンツSEOを極める</a></h2>
+        <h2><a href="" id="more-title">SEOを極める</a></h2>
+        <a href="" class="more-btn">Read More</a>
       </li>
 
       <li class="more-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="">作成アプリ</a></h2>
+        <h2><a href="" id="more-title">ポートフォリオ</a></h2>
+        <a href="" class="more-btn">Read More</a>
+
       </li>
 
     </ul>
@@ -41,25 +44,26 @@
 
 
 <div class="post-wrapper">
-  <h2>新着</h2>
+
   <div class="container">
 
   <div class="new-post">
-    <h3>test title</h3>
+    <h3>test titletest titletest title</h3>
 
-  <ul>
-    <li><a href="">category</a></li>
-    <li>date</li>
-  </ul>
+    <ul>
+      <li>date</li>
+      <li><a href="">category</a></li>
+    </ul>
 
     <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
     <p>
-      <a href="">
         DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription
         DescriptionDescriptionDescriptionDescriptionDescription
-      </a>
     </p>
+    <a href="">READ MORE</a>
   </div>
+
+
   <?php get_sidebar(); ?>
 
   </div>
