@@ -1,0 +1,44 @@
+
+.category-wordpress-header {
+  background: #3DA4D5;
+
+}
+
+.fa-wordpress-simple {
+  margin-right: 5px;
+
+}
+
+
+.category-wordpress-header h1 {
+  text-align: center;
+  color: #FFF;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 40px;
+
+}
+
+.wp-step1-wrapper h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #666;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.wp-step1-img {
+  width: 30%;
+  float: left;
+}
+
+
+.wp-step1-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.wp-step1-list {
+  width: 68%;
+  float: right;
+}

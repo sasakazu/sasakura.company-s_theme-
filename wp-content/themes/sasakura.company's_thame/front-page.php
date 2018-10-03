@@ -3,47 +3,12 @@
 <?php get_header(); ?>
 
 
-
-<div class="more-wrapper">
-
-  <div class="container">
-
-    <ul class="more-colum">
-
-      <li class="more-contents">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="" id="more-title">Wordpressオリジナルテーマの作り方</a></h2>
-        <a href="" class="more-btn">Read More</a>
-      </li>
-
-      <li class="more-contents">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="" id="more-title">iOSアプリの作り方</a></h2>
-        <a href="" class="more-btn">Read More</a>
-      </li>
-
-      <li class="more-contents">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="" id="more-title">SEOを極める</a></h2>
-        <a href="" class="more-btn">Read More</a>
-      </li>
-
-      <li class="more-contents">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-        <h2><a href="" id="more-title">ポートフォリオ</a></h2>
-        <a href="" class="more-btn">Read More</a>
-
-      </li>
-
-    </ul>
-
-
-  </div>
-
-</div>
+<?php get_template_part( 'top3'); ?>
 
 
 <div class="post-wrapper">
+
+  <h2>NEW POST</h2>
 
   <div class="container">
 
@@ -61,13 +26,14 @@
 
     <p><?php the_excerpt(); ?></p>
 
-    <a href="">READ MORE</a>
+    <a href="<?php the_permalink(); ?>">READ MORE</a>
 
   </div>
 
-  <?php endwhile; endif; ?>
 
-  <?php get_sidebar(); ?>
+  <!-- <?php get_sidebar(); ?> -->
+
+  <?php endwhile; endif; ?>
 
   </div>
 
