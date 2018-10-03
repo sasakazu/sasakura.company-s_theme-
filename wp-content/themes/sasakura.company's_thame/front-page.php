@@ -47,8 +47,10 @@
 
   <div class="container">
 
+  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
   <div class="new-post">
-    <h3>test titletest titletest title</h3>
+    <h3><?php the_title(); ?></h3>
 
     <ul>
       <li>date</li>
@@ -56,13 +58,14 @@
     </ul>
 
     <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
-    <p>
-        DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription
-        DescriptionDescriptionDescriptionDescriptionDescription
-    </p>
+
+    <p><?php the_excerpt(); ?></p>
+
     <a href="">READ MORE</a>
+
   </div>
 
+  <?php endwhile; endif; ?>
 
   <?php get_sidebar(); ?>
 
@@ -70,8 +73,6 @@
 
 
 </div>
-
-
 
 
 
