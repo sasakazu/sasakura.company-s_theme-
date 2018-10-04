@@ -11,7 +11,7 @@
         <a href="/index.php?cat=2" class="more-btn">Lets Go!</a>
       </li>
 
-      <li class="more-contents">
+      <li class="more-contents second-contents">
         <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
         <h2><a href="" id="more-title">iOSアプリの作り方</a></h2>
         <a href="" class="more-btn">Lets Go!</a>
