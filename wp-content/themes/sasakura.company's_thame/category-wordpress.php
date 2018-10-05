@@ -14,9 +14,9 @@
 
   <div class="wp-step1-list">
     <ul>
-      <li><a href="#">GitHubレポジトリ作成</a></li>
-      <li><a href="#">MAMPの導入・設定</a></li>
-      <li><a href="#">必須ファイルの作成</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#">GitHubレポジトリ作成</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#">MAMPの導入・設定</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#">必須ファイルの作成</a></li>
     </ul>
 
   </div>

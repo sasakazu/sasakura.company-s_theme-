@@ -9,6 +9,15 @@
 
 }
 
+.wp-step1-wrapper {
+  margin-bottom: 70px;
+  overflow: hidden;
+
+}
+
+.wp-step1-img {
+  margin-bottom: 50px
+}
 
 .category-wordpress-header h1 {
   text-align: center;
@@ -28,17 +37,35 @@
 }
 
 .wp-step1-img {
-  width: 30%;
+  width: 38%;
   float: left;
 }
 
 
 .wp-step1-img img {
-  width: 300px;
-  height: 200px;
+  width: 240px;
+  height: 150px;
+  margin: 0 0 0 auto;
+  display: block;
+  border: 2px solid #666;
+  border-radius: 3px;
+  padding: 20px;
+
 }
 
 .wp-step1-list {
-  width: 68%;
+  width: 50%;
   float: right;
+}
+
+.wp-step1-list a {
+  color: #2581c4;
+  text-decoration: none;
+
+}
+
+
+
+.wp-step1-list i {
+  margin-right: 8px;
 }
