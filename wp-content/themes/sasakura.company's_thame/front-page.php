@@ -8,7 +8,7 @@
 
 <div class="post-wrapper">
 
-  <h2 class="post-title"><i class="far fa-newspaper"></i>NEW</h2>
+  <h2 class="post-title"><i class="far fa-newspaper"></i>新着一覧</h2>
 
   <div class="container">
 
@@ -18,16 +18,11 @@
 
   <ul class="new-post">
     <li>
-
-      <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="">
+      <a href="<?php the_permalink(); ?>">
+        <?php the_post_thumbnail('thumbnail'); ?>
+      </a>
+      <p><?php the_time('Y/m/d'); ?></p>
       <h3><?php the_title(); ?></h3>
-
-      <ul>
-        <li>date</li>
-        <li><a href="">category</a></li>
-      </ul>
-
-
       <p><?php the_excerpt(); ?></p>
 
       <a href="<?php the_permalink(); ?>">READ MORE</a>
