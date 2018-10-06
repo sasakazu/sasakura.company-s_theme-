@@ -15,7 +15,7 @@
 
       <li class="more-contents">
         <a href="#" class="more-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/wp_img.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/comingsoon2.jpg" alt="">
         </a>
         <h2><a href="" id="more-title">iOSアプリの作り方</a></h2>
         <a href="#" class="more-btn">Comming Soon....</a>
@@ -23,7 +23,7 @@
 
       <li class="more-contents">
         <a href="#" class="more-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/wp_img.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/comingsoon2.jpg" alt="">
         </a>
         <h2><a href="" id="more-title">コンテンツSEOを極める</a></h2>
         <a href="/index.php?cat=2" class="more-btn">Comming Soon....</a>

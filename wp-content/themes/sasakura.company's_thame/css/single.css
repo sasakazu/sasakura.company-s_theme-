@@ -1,1 +1,46 @@
 
+
+
+.single-wrapper {
+  max-width: 780px;
+  margin: 50px auto 150px auto;
+
+
+}
+
+.single-wrapper li {
+  display: inline-block;
+
+}
+
+.single-wrapper li a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+
+.single-date {
+  font-size: 10px;
+  margin-bottom: 14px;
+}
+
+.single-title {
+  font-size: 31px;
+  font-weight: bold;
+
+}
+
+.single-wrapper img {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.single-content p {
+  line-height: 2;
+  color: #333;
+  padding: 20px 46px;
+
+}
