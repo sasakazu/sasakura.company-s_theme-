@@ -2,6 +2,5 @@
 
 
 
-bdzvkjdbvkjd
 
 <?php get_footer(); ?>

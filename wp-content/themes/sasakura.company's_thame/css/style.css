@@ -123,7 +123,7 @@ License URI: テーマのライセンスのURI
   width: 100%;
   /* height: 220px; */
   height: auto;
-  
+
   background-position: center;
   background-size: cover;
 
@@ -209,28 +209,30 @@ License URI: テーマのライセンスのURI
 
 .new-post {
   display:table-cell;
-  width: 23%;
+  width: 31%;
   background: #FFF;
   float: left;
-  margin-left: 15px;
-  margin-bottom: 40px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 78px;
 
 }
 
-.new-post h3 {
-  text-align: center;
-  font-size: 18px;
-  color: rgb(123, 123, 123);
+.new-post a {
+  display: block;
+  font-size: 17px;
+  color: #383838;
+  text-decoration: none;
 
 }
 
 .new-post img {
   width: 100%;
+  height: 200px;
 
 }
 
 .new-post ul {
-  text-align: center;
 
 }
 
@@ -239,10 +241,11 @@ License URI: テーマのライセンスのURI
 }
 
 .new-post ul li a {
-  margin-left: 10px;
   color: #666;
   text-decoration: none;
-
+  font-size: 10px;
+  margin-top: 7px;
+  
 }
 
 .new-post p {
@@ -250,11 +253,13 @@ License URI: テーマのライセンスのURI
   text-align: center;
   color: #666;
 
+
 }
 
 .new-post li {
   display: inline;
 }
+
 
 
 
