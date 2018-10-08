@@ -35,8 +35,9 @@
 
   <div class="wp-step-list">
     <ul>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">ローカル環境の構築(MAMP)</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">Wordpressの導入方法</a></li>
       <li><i class="fas fa-angle-right"></i><a href="#" target="_blank">GitHubレポジトリ作成</a></li>
-      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">MAMPの導入・設定</a></li>
       <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">必須ファイルの作成</a></li>
     </ul>
 
@@ -60,7 +61,10 @@
 
   <div class="wp-step-list">
     <ul>
-      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">ナビゲーションバーの作成</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">ナビゲーションバーの作成(レスポンシブ対応)</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">トップヘッダーの作成(Slick クロスフェード)</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">新着一覧を作る(roop)</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">サイドバーの作成(sidebar.php)</a></li>
 
     </ul>
 
@@ -71,7 +75,7 @@
 <!-- <hr> -->
 
 <div class="wp-step-wrapper">
-  <h2>00.開発準備</h2>
+  <h2>02.シングルページの作成</h2>
 
   <div class="wp-step-inline">
 
@@ -86,7 +90,7 @@
 
   <div class="wp-step-list">
     <ul>
-      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">GitHubレポジトリ作成</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">シングルページを作成</a></li>
 
     </ul>
 
@@ -96,8 +100,47 @@
 
 </div>
 
+
+<div class="wp-step-wrapper">
+  <h2>03.コンタクトページの作成</h2>
+
+  <div class="wp-step-inline">
+
+
+  <div class="wp-step-img">
+    <div class="bg">
+      <img src="<?php bloginfo('template_directory'); ?>/images/wp_img.png" alt="">
+
+    </div>
+
+  </div>
+
+  <div class="wp-step-list">
+    <ul>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">プラグイン「Contact form7」の導入・設定</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">レイアウトを整える</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">プラグイン「Contact form7」の導入</a></li>
+
+    </ul>
+
+  </div>
+ </div>
+
+
 </div>
 
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- container -->
 
 
 

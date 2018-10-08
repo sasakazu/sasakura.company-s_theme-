@@ -5,7 +5,8 @@
     <?php if(have_posts()): while(have_posts()):the_post(); ?>
 
     <ul>
-      <li class="single-date"><?php the_time('Y/m/d'); ?></li>
+      <li class="single-date">公開日:<?php the_time('Y/m/d'); ?></li>
+      <li class="update-date">更新日: <?php the_modified_date('Y/m/d'); ?></li>
       <li><?php the_category(); ?></li>
     </ul>
 

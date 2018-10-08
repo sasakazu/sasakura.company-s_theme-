@@ -24,6 +24,14 @@
 .single-date {
   font-size: 10px;
   margin-bottom: 14px;
+  border-right: 1px solid #484642;
+  padding-right: 7px;
+}
+
+.update-date {
+  font-size: 10px;
+  margin-bottom: 14px;
+
 }
 
 .single-title {

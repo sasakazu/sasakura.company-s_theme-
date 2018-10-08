@@ -1,6 +1,6 @@
 <div class="more-wrapper">
 
-  <h2 id="tutorial"><i class="fas fa-fire"></i>First Hack</h2>
+  <!-- <h2 id="tutorial"><i class="fas fa-fire"></i>First Hack</h2> -->
   <div class="container">
 
     <ul class="more-colum">
