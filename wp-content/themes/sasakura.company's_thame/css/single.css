@@ -37,6 +37,8 @@
 .single-title {
   font-size: 31px;
   font-weight: bold;
+  font-family: 'Kosugi Maru', sans-serif;
+
 
 }
 
@@ -44,11 +46,14 @@
   width: 100%;
   height: auto;
   margin-top: 40px;
+  margin-bottom: 70px;
+
 }
 
 .single-content p {
   line-height: 2;
   color: #333;
   padding: 20px 46px;
+  font-family: 'M PLUS 1p', sans-serif;
 
 }

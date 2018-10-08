@@ -11,6 +11,7 @@
   <h2>完成サイト</h2>
   <div class="wp-step-inline">
 
+
   <a href="#" target="_blank">
     <img src="<?php bloginfo('template_directory'); ?>/images/image06.jpg" alt="" >
   </a>
