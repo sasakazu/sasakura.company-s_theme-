@@ -1,12 +1,8 @@
 /*
-Theme Name: sasa's theme
-Theme URL: テーマのサイトのURI
-Description: テーマの説明
-Author: 作者の名前
-Version: テーマのバージョン
-Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
-License: テーマのライセンス
-License URI: テーマのライセンスのURI
+Theme Name: Sasakura_theme
+Author: SasakuraKazuya
+Description: This is my original theme.
+Version: 1.0
 */
 
 /* googlefonts 日本語 */
@@ -284,12 +280,17 @@ font-family: 'Noto Sans JP', sans-serif; */
 /* footer */
 
 
-footer {
+.footer-wrapper {
   background: #222222;
   color: #FFF;
   text-align: center;
   clear: both;
-  padding: 12px;
+  padding-top: 12px;
   letter-spacing: 1px;
+  margin-top: 50px;
+}
 
+
+footer p {
+  padding: 30px;
 }

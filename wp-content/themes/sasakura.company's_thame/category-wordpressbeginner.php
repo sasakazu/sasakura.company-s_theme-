@@ -19,7 +19,7 @@
   <div class="wp-beginner-img">
     <div class="bg-green">
       <img src="<?php bloginfo('template_directory'); ?>/images/wp_img.png" alt="">
-      <h3>基本動作</h3>
+      <!-- <h3>基本動作</h3> -->
     </div>
 
   </div>

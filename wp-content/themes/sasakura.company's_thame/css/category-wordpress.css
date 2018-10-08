@@ -38,32 +38,7 @@
 
 }
 
-#one-title {
-  text-align: center;
-  color: #666;
-  font-size: 27px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: relative;
-  margin-bottom: 1em;
-}
 
-#one-title::before {
-  content: '';
-  position: absolute;
-  bottom: -15px;
-  display: inline-block;
-  width: 60px;
-  height: 5px;
-  left: 50%;
-  -moz-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  background-color: green;
-  border-radius: 2px;
-
-}
 
 
 .preview-wp-site img {

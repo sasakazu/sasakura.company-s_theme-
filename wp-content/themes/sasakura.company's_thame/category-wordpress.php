@@ -47,13 +47,13 @@
 </div>
 
 <div class="wp-step-wrapper">
-  <h2 id="one-title">01.フロントページの作成</h2>
+  <h2>01.フロントページの作成</h2>
 
   <div class="wp-step-inline">
 
 
   <div class="wp-step-img">
-    <div class="bg-green">
+    <div class="bg">
       <img src="<?php bloginfo('template_directory'); ?>/images/wp_img.png" alt="">
 
     </div>

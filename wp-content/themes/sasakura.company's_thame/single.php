@@ -12,7 +12,7 @@
 
       <h2 class="single-title"><?php the_title(); ?></h2>
 
-      <?php the_post_thumbnail(); ?>
+      <?php the_post_thumbnail('single_thumbnail'); ?>
 
 
 
