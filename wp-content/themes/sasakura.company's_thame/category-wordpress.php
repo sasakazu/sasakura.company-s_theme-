@@ -36,8 +36,9 @@
 
   <div class="wp-step-list">
     <ul>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">はじめに</a></li>
       <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">MAMPのダウンロード方法</a></li>
-      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">Wordpressの導入・データベースの作成</a></li>
+      <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">データベースの作成・Wordpressの導入方法</a></li>
       <li><i class="fas fa-angle-right"></i><a href="#" target="_blank">GitHubレポジトリ作成</a></li>
       <li><i class="fas fa-angle-right"></i><a href="#" target= "_blank">必須ファイルの作成</a></li>
     </ul>

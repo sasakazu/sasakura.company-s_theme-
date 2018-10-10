@@ -6,8 +6,8 @@
 
     <ul>
       <li class="single-date">公開日:<?php the_time('Y/m/d'); ?></li>
-      <li class="update-date">更新日: <?php the_modified_date('Y/m/d'); ?></li>
-      <li><?php the_category(); ?></li>
+      <li class="update-date">更新日:<?php the_modified_date('Y/m/d'); ?></li>
+      <li class="singlepage-category"><?php the_category(); ?></li>
     </ul>
 
       <h2 class="single-title"><?php the_title(); ?></h2>

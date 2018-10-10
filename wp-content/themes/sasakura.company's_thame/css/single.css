@@ -9,11 +9,11 @@
 }
 
 .single-wrapper li {
-  display: inline-block;
+  /* display: inline-block; */
 
 }
 
-.single-wrapper li a {
+.singlepage-category li a {
   color: #666;
   font-size: 12px;
   text-decoration: none;
@@ -21,16 +21,23 @@
 
 }
 
+.singlepage-category {
+  display: inline-block;
+}
+
 .single-date {
   font-size: 10px;
   margin-bottom: 14px;
   border-right: 1px solid #484642;
   padding-right: 7px;
+  display: inline-block;
+
 }
 
 .update-date {
   font-size: 10px;
   margin-bottom: 14px;
+  display: inline-block;
 
 }
 
@@ -53,7 +60,7 @@
 .single-content p {
   line-height: 2;
   color: #333;
-  padding: 20px 46px;
+  /* padding: 20px 46px; */
   font-family: 'M PLUS 1p', sans-serif;
 
 }
