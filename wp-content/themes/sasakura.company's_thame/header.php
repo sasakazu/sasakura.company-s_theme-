@@ -30,7 +30,9 @@
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="logo"><?php bloginfo( $name ); ?></a>
 
     <!-- <ul> -->
-      <li><a href="#"><?php wp_nav_menu(); ?></a></li>
+      <!-- <li> -->
+        <a href="#"><?php wp_nav_menu(); ?></a>
+      <!-- </li> -->
       <!-- <li><a href="#">menu2</a></li>
       <li><a href="#">menu3</a></li> -->
     <!-- </ul> -->

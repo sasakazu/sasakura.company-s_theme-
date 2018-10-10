@@ -245,6 +245,9 @@ font-family: 'Noto Sans JP', sans-serif; */
   height: 200px;
 
 }
+.new-post img:hover {
+  opacity: .8; 
+}
 
 .new-post ul {
 
