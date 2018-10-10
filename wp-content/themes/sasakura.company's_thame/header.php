@@ -16,8 +16,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Kosugi|Kosugi+Maru|M+PLUS+1p|M+PLUS+Rounded+1c|Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Gothic|Sawarabi+Mincho" rel="stylesheet">
 
-  <!-- <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
-
   <title><?php bloginfo( $name ); ?></title>
 
   <?php wp_head(); ?>
@@ -31,11 +29,11 @@
   <div class="nav-menu">
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="logo"><?php bloginfo( $name ); ?></a>
 
-    <ul>
+    <!-- <ul> -->
       <li><a href="#"><?php wp_nav_menu(); ?></a></li>
       <!-- <li><a href="#">menu2</a></li>
       <li><a href="#">menu3</a></li> -->
-    </ul>
+    <!-- </ul> -->
 
 
 

@@ -35,6 +35,7 @@
 
   </div>
 
+<div class="page-nate-wrapper">
 
   <?php
       $big = 9999999999;
@@ -45,6 +46,9 @@
       );
       echo paginate_links($arg);
   ?>
+
+</div>
+
 
 </div>
 

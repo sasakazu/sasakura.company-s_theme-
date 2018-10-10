@@ -275,7 +275,31 @@ font-family: 'Noto Sans JP', sans-serif; */
 }
 
 
+.page-nate-wrapper {
+  text-align: center;
 
+}
+
+
+.page-nate-wrapper a {
+  margin-right: 6px;
+  background: #3c89e3;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+
+}
+
+.current {
+  margin-right: 11px;
+  margin-left: 5px;
+  padding-bottom: 4px;
+
+}
+
+.page-nate-wrapper a:hover {
+}
 
 /* footer */
 
