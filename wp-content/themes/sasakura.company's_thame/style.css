@@ -237,7 +237,9 @@ font-family: 'Noto Sans JP', sans-serif; */
   font-size: 17px;
   color: #383838;
   text-decoration: none;
+  margin-top: 4px;
 
+  
 }
 
 .new-post img {
@@ -246,7 +248,7 @@ font-family: 'Noto Sans JP', sans-serif; */
 
 }
 .new-post img:hover {
-  opacity: .8; 
+  opacity: .8;
 }
 
 .new-post ul {

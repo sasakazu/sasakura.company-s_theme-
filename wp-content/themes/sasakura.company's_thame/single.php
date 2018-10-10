@@ -12,9 +12,15 @@
 
       <h2 class="single-title"><?php the_title(); ?></h2>
 
+  <?php if (has_post_thumbnail()) : ?>
+
       <?php the_post_thumbnail('single_thumbnail'); ?>
 
+    <?php else: ?>
 
+    <a href="<?php the_permalink(); ?>"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" /></a>
+
+    <?php endif; ?>
 
     <div class="single-content">
       <?php the_content(); ?>

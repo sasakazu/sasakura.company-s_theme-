@@ -18,7 +18,16 @@
 
   <ul class="new-post">
     <li>
-      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+    <?php if (has_post_thumbnail()) : ?>
+
+      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('newpost'); ?></a>
+
+    <?php else: ?>
+
+    <a href="<?php the_permalink(); ?>"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/noimage.png" /></a>
+
+    <?php endif; ?>
+
 
       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
       <p><?php the_category(); ?></p>
