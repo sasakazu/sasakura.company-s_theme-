@@ -23,6 +23,11 @@
 
 .singlepage-category {
   display: inline-block;
+
+}
+
+.singlepage-category ul {
+  list-style: none;
 }
 
 .single-date {

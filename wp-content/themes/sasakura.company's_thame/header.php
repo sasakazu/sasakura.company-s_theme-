@@ -31,7 +31,9 @@
 
     <!-- <ul> -->
       <!-- <li> -->
-        <a href="#"><?php wp_nav_menu(); ?></a>
+        <!-- <a href="#"> -->
+          <?php wp_nav_menu(); ?>
+        <!-- </a> -->
       <!-- </li> -->
       <!-- <li><a href="#">menu2</a></li>
       <li><a href="#">menu3</a></li> -->

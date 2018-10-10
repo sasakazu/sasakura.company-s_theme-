@@ -6,11 +6,11 @@
     <ul class="more-colum">
 
       <li class="more-contents">
-        <a href="/index.php?cat=2" class="more-img">
+        <a href="/index.php/category/wordpress/" class="more-img">
           <img src="<?php echo get_template_directory_uri(); ?>/images/wp_img.png" alt="">
         </a>
         <h2><a href="" id="more-title">Wordpressオリジナルテーマの作り方</a></h2>
-        <a href="/index.php?cat=2" class="more-btn">Read More</a>
+        <a href="/index.php/category/wordpress/" class="more-btn">Read More</a>
       </li>
 
       <li class="more-contents">
