@@ -143,6 +143,11 @@
   float: right;
 }
 
+.wp-step-list ul {
+  list-style: none;
+
+}
+
 .wp-step-list a {
   color: #2581c4;
   text-decoration: none;
