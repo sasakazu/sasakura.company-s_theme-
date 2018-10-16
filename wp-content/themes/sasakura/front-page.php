@@ -1,20 +1,34 @@
-
-
 <?php get_header(); ?>
 
+<div class="google-ad">
+
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adse -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-5047644305890156"
+     data-ad-slot="9804120178"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+</div>
 
 <?php get_template_part( 'top3'); ?>
 
 
 <div class="post-wrapper">
 
-  <h2 class="post-title"><i class="far fa-newspaper"></i>新着一覧</h2>
+  <h2 class="post-title"><i class="far fa-newspaper"></i>新着</h2>
 
   <div class="container">
 
     <div class="post-colum">
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 
   <ul class="new-post">
     <li>
@@ -52,6 +66,8 @@
       );
       echo paginate_links($arg);
   ?>
+
+
 
 </div>
 

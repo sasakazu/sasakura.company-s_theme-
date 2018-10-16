@@ -1,0 +1,107 @@
+
+.category-wpbeginner-header {
+  background: #96e86a;
+
+}
+
+.category-wpbeginner-header h1 {
+  text-align: center;
+  color: #FFF;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 40px;
+
+}
+
+
+.wp-beginner-inline {
+  padding-top: 41px;
+
+}
+
+.wp-beginner-wrapper {
+  margin-bottom: 45px;
+  overflow: hidden;
+  border-bottom: 3px solid #f9f9f9;
+  padding-bottom: 80px;
+
+}
+
+
+.wp-beginner-wrapper h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #666;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  margin-bottom: 1em;
+
+}
+
+.wp-beginner-wrapper h2::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #2abb2a;
+  border-radius: 2px;
+
+}
+
+.wp-beginner-img {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+
+
+.bg-green {
+  background-color: green;
+  display: inline-block;
+}
+
+.wp-beginner-img img {
+  width: 264px;
+  height: auto;
+  opacity: 0.6;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.wp-beginner-list {
+  width: 50%;
+  float: right;
+}
+
+.wp-beginner-list li {
+	list-style: none;
+
+}
+
+.wp-beginner-list a {
+  color: #2581c4;
+  text-decoration: none;
+  margin-bottom: 4px;
+  display: inline-block;
+
+}
+
+.wp-beginner-list a:hover {
+  text-decoration: underline;
+
+}
+
+
+.wp-beginner-list i {
+  margin-right: 8px;
+}

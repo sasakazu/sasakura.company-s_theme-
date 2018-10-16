@@ -1,9 +1,6 @@
-
-
-
 .single-wrapper {
   max-width: 780px;
-  margin: 50px auto 150px auto;
+  margin: 50px auto;
 
 
 }
@@ -23,11 +20,11 @@
 
 .singlepage-category {
   display: inline-block;
-
 }
 
 .singlepage-category ul {
   list-style: none;
+	display: flex;
 }
 
 .single-date {
@@ -51,6 +48,11 @@
   font-weight: bold;
   font-family: 'Kosugi Maru', sans-serif;
 
+}
+
+.single-head-img img {
+  margin-top: 40px;
+  margin-bottom: 50px;
 
 }
 
@@ -60,16 +62,22 @@
 
 }
 
-.single-head-img img {
-  margin-top: 40px;
-  margin-bottom: 50px;
-
+.single-content {
+	  max-width: 781px;
+    margin: 0 auto;
+    word-break: break-word;
 }
 
 .single-content p {
   line-height: 2;
   color: #333;
-  /* padding: 20px 46px; */
   font-family: 'M PLUS 1p', sans-serif;
+
+
+}
+
+.single-content li {
+	 margin-left: 21px;
+	 margin-top: 5px;
 
 }
